@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.menu {
+    background-color: #fff;
+    position: fixed;
+    display:flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 80px;
+    z-index: 2;
+   
+}
+
+img{
+    margin-left: 60px;
+    width: 100px;
+}
+
+   i{
+    position: relative;
+    font-size: 30px;
+    margin-left: 24px;
+    margin-top: 19px;
+}
+
+input{
+    padding: 10px 250px;
+    border-radius: 50px;
+    border: 1px solid;
+    margin-left: 100px;
+    margin-top: 15px;
+    text-align: center;
+    font-size: 15px;
+    outline: none;
+    
+
+}
+
+nav{
+    display: flex;
+}
+.btn1 a i{
+    font-size: 23px;
+    border-radius: 0 20px 20px 0;
+    background-color: rgba(102, 101, 99, 0.103);
+    color: black;
+    border-left: 1px solid black;
+    padding: 7.6px 20px ;
+    position: relative;
+    right:88.9px;
+    top: -4px;
+} 
+
+.btn2 a i{
+    position: relative;
+    right: 100px;
+    border-radius: 50px;
+    background-color:  rgba(102, 101, 99, 0.103);
+    padding: 10px;
+    font-size: 23px;
+    top: -4px;
+    color: black;
+}
+
+.btn3 a i {
+    position: relative;
+    left: 50px;
+    color: black;
+    font-size: ;
+}
+
+section{
+    width: 240px;
+    height: 100vh;
+   
+}
+section:hover{
+    overflow-y:scroll;
+    transition: 2s;
+
+}
+section a{
+ font-size: 20px;
+ text-decoration: none;
+ color: black;
+ font-weight: 300;
+}
+
+section .width p{
+    display: inline-block;
+    font-size: 15px;
+
+}
+.linha{
+    border-bottom: 1px solid rgb(223, 218, 218);
+    width: 83%;
+    margin-top: 40px;
+}
+
+.vc h3{
+    margin-top: 30px;
+    margin-left:30px ;
+    font-weight: 400 ;
+}
+.ed{
+    position: fixed;
+    top: 80px;
+}
+.width{
+    width: 270px;
+    height: 100vh;
+}
+
+section  i{
+    font-size: 20px;
+    color: black;
+}
+section a i{
+    margin: 30px 30px 0 30px;
+    
+}
+.video{
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    top: 80px;
+    left: 250px;
+}
+nav iframe{
+    width: 350px;
+    height: 170px;
+    margin: 3px auto;
+     
+    border-radius: 10px;
+}
+nav p{
+    font-size: 15px;
+font-weight: bold;
+
+}
+nav .video1{
+    margin-bottom: 30px;
+}
+.e p{
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 10px;
+}
